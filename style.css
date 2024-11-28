@@ -3,22 +3,23 @@ body{
 }
 
 .top-quarter{   
-    background-color: #1f2937;
-    width: auto;
-    height: 250px;
+   
     
 }
 
 .header{     
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    
     padding: 10px;
+    background-color: #1f2937;
+    width: auto;
+    height: 250px;
     
     
 }
 
-.header .logo{       
+.header .logo{     
     font-size: 24px;
     color: #f9faf8;
     list-style: none;
