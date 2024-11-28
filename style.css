@@ -1,0 +1,38 @@
+body{
+    font-family: Roboto;
+}
+
+.top-quarter{   
+    background-color: #1f2937;
+    width: auto;
+    height: 250px;
+    
+}
+
+.header{     
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+.header .logo{       
+    font-size: 24px;
+    color: #f9faf8;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header .top-links{
+    display:flex;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+   
+}
