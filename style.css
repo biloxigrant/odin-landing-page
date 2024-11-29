@@ -6,7 +6,7 @@ body{
 .header1{     
     display: flex;
     justify-content: space-between;    
-    padding: 10px;
+    padding-top: 10px;
     background-color: #1f2937;
     width: auto;
     height: 100px;
@@ -41,32 +41,27 @@ body{
     display: flex;
     justify-content: space-between;
     width: auto;
-    height: 100%;    
-    padding: 10px;
+    height: 100%; 
+    padding-top: 50px;   
+    padding-bottom: 100px;
     background-color: #1f2937;
     padding-left: 200px;
     padding-right: 200px;
-    
-   
 }
 
 .header2 h1{
     font-size: 48px;
     color: #f9faf8;
-    
 }
 
 .header2 p{
     font-size: 18px;
     font-weight: 900;
     color:#e5e7eb;
-   
 }
 
 .header2-image{
    display: flex;   
-   
-
 }
 
 .header2-image img{   
@@ -74,3 +69,15 @@ body{
  height: 100%;   
 }
 
+.info-header{
+    display: flex;
+    justify-content: center;
+
+}
+
+.info-header h2{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+    
+}
