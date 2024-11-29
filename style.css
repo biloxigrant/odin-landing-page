@@ -2,24 +2,19 @@ body{
     font-family: Roboto;
 }
 
-.top-quarter{   
-   
-    
-}
 
-.header{     
+.header1{     
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
     padding: 10px;
     background-color: #1f2937;
     width: auto;
-    height: 250px;
+    height: 100px;
     
     
 }
 
-.header .logo{     
+.header1 .logo{     
     font-size: 24px;
     color: #f9faf8;
     list-style: none;
@@ -28,7 +23,7 @@ body{
     
 }
 
-.header .top-links{
+.header1 .top-links{
     display:flex;
     color: #e5e7eb;
     font-size: 18px;
@@ -38,3 +33,35 @@ body{
     gap: 15px;
    
 }
+
+.header2{
+    display: flex;
+    justify-content: space-around;    
+    padding: 10px;
+    background-color: #1f2937;
+    
+    
+   
+}
+
+.header2 h1{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.header2 p{
+    font-size: 18px;
+    font-weight: 900;
+    color:#e5e7eb;
+}
+
+.header2-image{
+   display: flex;   
+
+}
+
+.header2-image img{   
+    width:100%;
+    height:100%;
+}
+
