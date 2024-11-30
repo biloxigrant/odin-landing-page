@@ -50,13 +50,13 @@ body{
 
 .header2 h1{
     font-size: 48px;
+    font-weight: 900;
     color: #f9faf8;
     margin-bottom: 0;
 }
 
 .header2 p{
     font-size: 18px;
-    font-weight: 900;
     color:#e5e7eb;
     
     width: 75%;
@@ -68,14 +68,25 @@ body{
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    width: 18%;
+    width: 200px;
     
 }
 
 .sign-up p{
-    padding: 10px;
-    margin: 0;
+    width: 100px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+
 }
+
+.sign-up a{
+    text-decoration: none;
+}
+
+
+ 
+
 
 .header2-image{
    display: flex;  
