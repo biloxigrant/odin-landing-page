@@ -1,6 +1,6 @@
 
 body{
-    font-family: Roboto;
+    font-family: Roboto, 'Times New Roman', Times, serif;
     margin: 0;
 }
 
@@ -98,11 +98,11 @@ body{
     display: flex;
     list-style: none;
     gap: 30px;
-   
+    margin: 0;
+    padding: 0;
+       
     
 }
-
-
   
 .square-images img{
 width: 180px;
@@ -110,11 +110,12 @@ height: 180px;
 border-radius: 25px;
 
 
-}
 
+}
 
 .square-images .caption{
     width: 180px;
+
     
 }
     
