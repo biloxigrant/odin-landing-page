@@ -40,7 +40,6 @@ body{
 .header2{
     display: flex;
     justify-content: space-between;
-   
     padding-top: 50px;   
     padding-bottom: 100px;
     background-color: #1f2937;
@@ -52,14 +51,30 @@ body{
 .header2 h1{
     font-size: 48px;
     color: #f9faf8;
+    margin-bottom: 0;
 }
 
 .header2 p{
     font-size: 18px;
     font-weight: 900;
     color:#e5e7eb;
+    
     width: 75%;
     
+}
+
+.sign-up{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 18%;
+    
+}
+
+.sign-up p{
+    padding: 10px;
+    margin: 0;
 }
 
 .header2-image{
