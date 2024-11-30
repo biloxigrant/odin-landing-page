@@ -96,6 +96,7 @@ body{
 }
   
 .square-images img{
-width: 200px;
-height: auto;
+width: 180px;
+height: 180px;
+border-radius: 25px;
 }
