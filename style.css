@@ -2,7 +2,6 @@
 body{
     font-family: Roboto;
     margin: 0;
-    
 }
 
 
@@ -83,4 +82,20 @@ body{
     color:#1f2937;
     font-weight: 900;
     
+}
+
+.square-images *{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    
+}
+  
+.square-images img{
+width: 200px;
+height: auto;
 }
