@@ -85,10 +85,7 @@ body{
 }
 
 
- 
-
-
-.header2-image{
+ .header2-image{
    display: flex;  
 }
 
@@ -116,8 +113,6 @@ body{
     margin: 0;
     padding-bottom: 100px;
     list-style: none;
-
-    
 }
 
 .square-images ul{
@@ -126,23 +121,60 @@ body{
     gap: 30px;
     margin: 0;
     padding: 0;
-       
-    
 }
   
 .square-images img{
 width: 180px;
 height: 180px;
 border-radius: 25px;
-
-
-
 }
 
 .square-images .caption{
     width: 180px;
-
-    
 }
     
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 85px;
+
+
+}
+
+ 
+
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    width: 800px;
+}
+
+.quote p{
+    margin: 0;
+    padding: 0;
+}
+
+.signature {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 36px;
+    width: 800px;
+    
+}
+
+.signature p{
+    margin: 0;
+    padding: 0;
+
+}
+     
+    
+    
+
 
