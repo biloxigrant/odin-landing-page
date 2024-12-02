@@ -174,16 +174,23 @@ border-radius: 25px;
 
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
+    
+    
+    
+   
 
 }
+
+
 .action{
     background-color: #3882f6;
     border-radius: 10px;
-    width: 800px;
-    height: 100px;
+    width: 500px;
+    
+   
     
 }
 
@@ -196,9 +203,21 @@ border-radius: 25px;
 
 }
 
-.footer .button2 *{
+.sign-up2 p{
+    width: 100px;
+    color: #f9faf8;
+    background-color: #3882f6;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-up2 a{
     text-decoration: none;
 }
+
+    
+
     
 
 
