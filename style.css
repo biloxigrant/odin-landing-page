@@ -100,7 +100,7 @@ body{
 
 }
 
-.info-header h2{
+.info-header p{
     font-size: 36px;
     color:#1f2937;
     font-weight: 900;
@@ -173,8 +173,32 @@ border-radius: 25px;
     padding: 0;
 
 }
-     
+
+.footer{
+    display: flex;
+    justify-content: center;
+
+}
+.action{
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 800px;
+    height: 100px;
     
+}
+
+.action h2{
+
+}
+
+     
+.action p{
+
+}
+
+.footer .button2 *{
+    text-decoration: none;
+}
     
 
 
