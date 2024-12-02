@@ -181,7 +181,9 @@ border-radius: 25px;
     display: flex;
     justify-content: space-evenly;
     background-color: #3882f6;
-    margin: 100px 300px;
+    width: 75%;
+    margin: 100px auto;
+   
     border-radius: 10px; 
     
 }
@@ -219,7 +221,7 @@ border-radius: 25px;
     display: flex;
     justify-content: center;   
     align-items: center; 
-    width: 200px;
+    width: auto;
     border: none;
     
 }
