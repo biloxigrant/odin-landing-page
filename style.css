@@ -176,7 +176,7 @@ border-radius: 25px;
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #3882f6;
     margin: 100px 300px;
     border-radius: 10px;
@@ -211,7 +211,8 @@ border-radius: 25px;
 .sign-up2{
     background-color: #3882f6;
     display: flex;
-    justify-content: center;    
+    justify-content: center;   
+    align-items: center; 
     width: 200px;
     border: none;
     
@@ -224,10 +225,13 @@ border-radius: 25px;
     font-weight: bold;
     
 
+    
+
 }
 
 .sign-up2 a{
     text-decoration: none;
+    
    
 }
 
